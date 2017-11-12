@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '10.0'
 
-react_native_path = 'React/node_modules/react-native'
+react_native_path = 'ReactNative/node_modules/react-native'
 
 target 'ReactNativeRealmManualLink' do
   pod 'yoga', :path => react_native_path + '/ReactCommon/yoga'
