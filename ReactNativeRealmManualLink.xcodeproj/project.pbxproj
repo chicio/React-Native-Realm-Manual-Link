@@ -8,28 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		450FB7181FB892EB00BC4AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FB7171FB892EB00BC4AF4 /* AppDelegate.m */; };
-		450FB71B1FB892EB00BC4AF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FB71A1FB892EB00BC4AF4 /* ViewController.m */; };
 		450FB71E1FB892EB00BC4AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450FB71C1FB892EB00BC4AF4 /* Main.storyboard */; };
 		450FB7201FB892EB00BC4AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450FB71F1FB892EB00BC4AF4 /* Assets.xcassets */; };
 		450FB7231FB892EB00BC4AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450FB7211FB892EB00BC4AF4 /* LaunchScreen.storyboard */; };
 		450FB7261FB892EB00BC4AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FB7251FB892EB00BC4AF4 /* main.m */; };
-		EFC05E16077E9C847D5849AF /* libPods-ReactNativeRealmManualLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3939AC1C9A8EB25704168FC1 /* libPods-ReactNativeRealmManualLink.a */; };
+		4579001F1FB908760012DA67 /* RealmReact.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4579001B1FB908760012DA67 /* RealmReact.mm */; };
+		457900201FB908760012DA67 /* RealmAnalytics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4579001D1FB908760012DA67 /* RealmAnalytics.mm */; };
+		457900291FB90DE10012DA67 /* ReactNativeRealmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457900281FB90DE10012DA67 /* ReactNativeRealmController.swift */; };
+		4579FFED1FB904EC0012DA67 /* libGCDWebServers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4579FFE11FB904500012DA67 /* libGCDWebServers.a */; };
+		4579FFEE1FB904EC0012DA67 /* libRealmJS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4579FFE31FB904500012DA67 /* libRealmJS.a */; };
+		7ADBBEF57A12B46D8B566CD0 /* Pods_ReactNativeRealmManualLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF50E2305917FC09782CE635 /* Pods_ReactNativeRealmManualLink.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4579FFE01FB904500012DA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4579FFDA1FB9044F0012DA67 /* RealmJS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F63FF2F01C16405C00B3B8E0;
+			remoteInfo = GCDWebServers;
+		};
+		4579FFE21FB904500012DA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4579FFDA1FB9044F0012DA67 /* RealmJS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F63FF2B11C1241E500B3B8E0;
+			remoteInfo = RealmJS;
+		};
+		4579FFE41FB904500012DA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4579FFDA1FB9044F0012DA67 /* RealmJS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02B58CBC1AE99CEC009B348C;
+			remoteInfo = RealmJSTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00959123A31ACCADBFD1B304 /* Pods-ReactNativeRealmManualLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRealmManualLink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeRealmManualLink/Pods-ReactNativeRealmManualLink.debug.xcconfig"; sourceTree = "<group>"; };
-		3939AC1C9A8EB25704168FC1 /* libPods-ReactNativeRealmManualLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeRealmManualLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		450FB7131FB892EB00BC4AF4 /* ReactNativeRealmManualLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeRealmManualLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450FB7161FB892EB00BC4AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		450FB7171FB892EB00BC4AF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		450FB7191FB892EB00BC4AF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		450FB71A1FB892EB00BC4AF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		450FB71D1FB892EB00BC4AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		450FB71F1FB892EB00BC4AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450FB7221FB892EB00BC4AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450FB7241FB892EB00BC4AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		450FB7251FB892EB00BC4AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4579001B1FB908760012DA67 /* RealmReact.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RealmReact.mm; sourceTree = "<group>"; };
+		4579001C1FB908760012DA67 /* RealmReact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmReact.h; sourceTree = "<group>"; };
+		4579001D1FB908760012DA67 /* RealmAnalytics.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RealmAnalytics.mm; sourceTree = "<group>"; };
+		4579001E1FB908760012DA67 /* RealmAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmAnalytics.h; sourceTree = "<group>"; };
+		457900271FB90DE10012DA67 /* ReactNativeRealmManualLink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeRealmManualLink-Bridging-Header.h"; sourceTree = "<group>"; };
+		457900281FB90DE10012DA67 /* ReactNativeRealmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeRealmController.swift; sourceTree = "<group>"; };
+		4579FFDA1FB9044F0012DA67 /* RealmJS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RealmJS.xcodeproj; path = ReactNative/node_modules/realm/src/RealmJS.xcodeproj; sourceTree = "<group>"; };
 		4D74AAE245149314A758E1A5 /* Pods-ReactNativeRealmManualLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeRealmManualLink.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeRealmManualLink/Pods-ReactNativeRealmManualLink.release.xcconfig"; sourceTree = "<group>"; };
+		AF50E2305917FC09782CE635 /* Pods_ReactNativeRealmManualLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeRealmManualLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC05E16077E9C847D5849AF /* libPods-ReactNativeRealmManualLink.a in Frameworks */,
+				7ADBBEF57A12B46D8B566CD0 /* Pods_ReactNativeRealmManualLink.framework in Frameworks */,
+				4579FFED1FB904EC0012DA67 /* libGCDWebServers.a in Frameworks */,
+				4579FFEE1FB904EC0012DA67 /* libRealmJS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +82,7 @@
 		3601D1B8AAF469E54890EBA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3939AC1C9A8EB25704168FC1 /* libPods-ReactNativeRealmManualLink.a */,
+				AF50E2305917FC09782CE635 /* Pods_ReactNativeRealmManualLink.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -65,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				450FB7151FB892EB00BC4AF4 /* ReactNativeRealmManualLink */,
+				45839C6C1FB8FF3500C53F49 /* Libraries */,
 				450FB7141FB892EB00BC4AF4 /* Products */,
 				3E462A05A28DD2DB8A1040F6 /* Pods */,
 				3601D1B8AAF469E54890EBA7 /* Frameworks */,
@@ -84,15 +120,54 @@
 			children = (
 				450FB7161FB892EB00BC4AF4 /* AppDelegate.h */,
 				450FB7171FB892EB00BC4AF4 /* AppDelegate.m */,
-				450FB7191FB892EB00BC4AF4 /* ViewController.h */,
-				450FB71A1FB892EB00BC4AF4 /* ViewController.m */,
+				457900281FB90DE10012DA67 /* ReactNativeRealmController.swift */,
 				450FB71C1FB892EB00BC4AF4 /* Main.storyboard */,
 				450FB71F1FB892EB00BC4AF4 /* Assets.xcassets */,
 				450FB7211FB892EB00BC4AF4 /* LaunchScreen.storyboard */,
 				450FB7241FB892EB00BC4AF4 /* Info.plist */,
 				450FB7251FB892EB00BC4AF4 /* main.m */,
+				457900271FB90DE10012DA67 /* ReactNativeRealmManualLink-Bridging-Header.h */,
 			);
 			path = ReactNativeRealmManualLink;
+			sourceTree = "<group>";
+		};
+		4579001A1FB908760012DA67 /* RealmReact */ = {
+			isa = PBXGroup;
+			children = (
+				4579001B1FB908760012DA67 /* RealmReact.mm */,
+				4579001C1FB908760012DA67 /* RealmReact.h */,
+				4579001D1FB908760012DA67 /* RealmAnalytics.mm */,
+				4579001E1FB908760012DA67 /* RealmAnalytics.h */,
+			);
+			name = RealmReact;
+			path = "ReactNative/node_modules/realm/react-native/ios/RealmReact";
+			sourceTree = "<group>";
+		};
+		4579FFD91FB903D90012DA67 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				4579FFDA1FB9044F0012DA67 /* RealmJS.xcodeproj */,
+				4579001A1FB908760012DA67 /* RealmReact */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		4579FFDB1FB9044F0012DA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4579FFE11FB904500012DA67 /* libGCDWebServers.a */,
+				4579FFE31FB904500012DA67 /* libRealmJS.a */,
+				4579FFE51FB904500012DA67 /* RealmJSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45839C6C1FB8FF3500C53F49 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4579FFD91FB903D90012DA67 /* Realm */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +204,7 @@
 				TargetAttributes = {
 					450FB7121FB892EB00BC4AF4 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -144,12 +220,42 @@
 			mainGroup = 450FB70A1FB892EB00BC4AF4;
 			productRefGroup = 450FB7141FB892EB00BC4AF4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4579FFDB1FB9044F0012DA67 /* Products */;
+					ProjectRef = 4579FFDA1FB9044F0012DA67 /* RealmJS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				450FB7121FB892EB00BC4AF4 /* ReactNativeRealmManualLink */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4579FFE11FB904500012DA67 /* libGCDWebServers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGCDWebServers.a;
+			remoteRef = 4579FFE01FB904500012DA67 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4579FFE31FB904500012DA67 /* libRealmJS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRealmJS.a;
+			remoteRef = 4579FFE21FB904500012DA67 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4579FFE51FB904500012DA67 /* RealmJSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RealmJSTests.xctest;
+			remoteRef = 4579FFE41FB904500012DA67 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		450FB7111FB892EB00BC4AF4 /* Resources */ = {
@@ -186,9 +292,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReactNativeRealmManualLink/Pods-ReactNativeRealmManualLink-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/GLog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,9 +337,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450FB71B1FB892EB00BC4AF4 /* ViewController.m in Sources */,
+				4579001F1FB908760012DA67 /* RealmReact.mm in Sources */,
 				450FB7261FB892EB00BC4AF4 /* main.m in Sources */,
 				450FB7181FB892EB00BC4AF4 /* AppDelegate.m in Sources */,
+				457900201FB908760012DA67 /* RealmAnalytics.mm in Sources */,
+				457900291FB90DE10012DA67 /* ReactNativeRealmController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,13 +476,35 @@
 			baseConfigurationReference = 00959123A31ACCADBFD1B304 /* Pods-ReactNativeRealmManualLink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y682K92RZU;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/boost\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/GLog\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/boost\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/src/**",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/vendor/realm-ios/include",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/vendor",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/vendor/GCDWebServer/GCDWebServer/**",
+				);
 				INFOPLIST_FILE = ReactNativeRealmManualLink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ReactNativeRealmManualLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeRealmManualLink/ReactNativeRealmManualLink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -373,13 +514,34 @@
 			baseConfigurationReference = 4D74AAE245149314A758E1A5 /* Pods-ReactNativeRealmManualLink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y682K92RZU;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/boost\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/GLog\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/boost\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/src/**",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/vendor/realm-ios/include",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/vendor",
+					"${SOURCE_ROOT}/ReactNative/node_modules/realm/vendor/GCDWebServer/GCDWebServer/**",
+				);
 				INFOPLIST_FILE = ReactNativeRealmManualLink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.ReactNativeRealmManualLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeRealmManualLink/ReactNativeRealmManualLink-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
