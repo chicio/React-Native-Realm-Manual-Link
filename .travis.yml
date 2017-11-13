@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode9
-before_install
+before_install:
  - cd ReactNative
  - nvm install 8
  - node --version
