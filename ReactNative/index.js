@@ -20,24 +20,24 @@ class ReactNativeRealmScreen extends React.Component {
 
     componentWillMount() {
         Realm.open({
-            schema: [{name: 'Dog', properties: {name: 'string'}}]
+            schema: [{name: 'Band', properties: {name: 'string', singer: 'string'}}]
         }).then(realm => {
             realm.write(() => {
-                realm.create('Dog', {name: 'Rex'});
+                realm.create('Band', {name: 'HIM', singer: 'Ville Valo'});
             });
             this.setState({ realm });
         });
     }
 
     render() {
-        const info = this.state.realm
-            ? 'Number of dogs in this Realm: ' + this.state.realm.objects('Dog').length
+        const message = this.state.realm
+            ? 'The singer of HIM band is: ' + this.state.realm.objects('Band').filtered("name = \'HIM\'")[0].singer
             : 'Loading...';
 
         return (
             <View style={styles.container}>
               <Text>
-                  {info}
+                  {message}
               </Text>
             </View>
         );
