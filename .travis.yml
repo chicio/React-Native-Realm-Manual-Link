@@ -1,0 +1,13 @@
+language: objective-c
+osx_image: xcode9
+before_install
+ - cd ReactNative
+ - nvm install 8
+ - node --version
+install:
+ - cd ReactNative
+ - npm install
+ - cd ..
+ - pod install
+script:
+ - xcodebuild -project ReactNativeRealmManualLink.xcodeproj -scheme ReactNativeRealmManualLink clean build
