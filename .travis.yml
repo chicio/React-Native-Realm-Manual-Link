@@ -11,6 +11,6 @@ before_install:
 install:
  - npm install
  - cd ..
- - pod install
+ - travis_wait pod install
 script:
  - xcodebuild -project ReactNativeRealmManualLink.xcodeproj -scheme ReactNativeRealmManualLink clean build
