@@ -1,5 +1,5 @@
 //
-//  Test.swift
+//  ReactNativeRealmController.swift
 //  ReactNativeRealmManualLink
 //
 //  Created by Fabrizio Duroni on 13.11.17.
