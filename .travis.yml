@@ -14,4 +14,4 @@ install:
  - cd ..
  - travis_wait pod install
 script:
- - travis_wait xcodebuild -workspace ReactNativeRealmManualLink.xcworkspace -scheme ReactNativeRealmManualLink clean build
+ - xcodebuild -workspace ReactNativeRealmManualLink.xcworkspace -scheme ReactNativeRealmManualLink clean build | xcpretty
