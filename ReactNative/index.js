@@ -31,7 +31,7 @@ class ReactNativeRealmScreen extends React.Component {
 
     render() {
         const message = this.state.realm
-            ? 'The singer of HIM band is: ' + this.state.realm.objects('Band').filtered("name = \'HIM\'")[0].singer
+            ? 'The singer of HIM band is: ' + this.state.realm.objects('Band').filtered('name = "HIM"')[0].singer
             : 'Loading...';
 
         return (
